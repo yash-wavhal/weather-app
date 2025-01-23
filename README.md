@@ -88,5 +88,5 @@ This project is a **Responsive Weather Application** built using **JavaScript**,
 
 ## **Image Links**
 
-- **Homepage**: ![Homepage Screenshot](public/images/Screenshot 2025-01-23 203327.png)  
-- **Search Results**: ![Search Results Screenshot](public/images/Screenshot 2025-01-23 202420.png)
+- **Homepage**: ![Homepage Screenshot](./public/images/Screenshot 2025-01-23 203327.png)  
+- **Search Results**: ![Search Results Screenshot](./public/images/Screenshot 2025-01-23 202420.png)
