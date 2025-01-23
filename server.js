@@ -37,7 +37,7 @@ app.post("/", async (req, res) => {
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${process.env.APIKEY}&units=metric`;
         const response = await axios.get(url);
         const weatherData = response.data;
-        // console.log(weatherData);
+        console.log(weatherData);
         const temp = Math.floor(weatherData.main.temp);
         const pressure = weatherData.main.pressure;
         const humidity = weatherData.main.humidity;

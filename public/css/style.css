@@ -70,13 +70,13 @@ svg{
 }
 
 .time, .date{
-    font-size: 35px;
+    font-size: 1.5rem;
     font-size: 400;
     color: #fff;
 }
 
 .data{
-    width: 400px;
+    width: 100vh;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -120,6 +120,7 @@ svg{
     font-weight: 600;
     color: #fff;
     cursor: pointer;
+    margin-right: 30px;
 }
 
 .svg{
@@ -173,4 +174,128 @@ svg{
     opacity: 1;
     bottom: 50px;
     transition: 0.5s;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1100px) {
+
+    .search-box #city{
+        height: 35px;
+        width: 250px;
+        font-size: 0.1rem;
+        padding-top: 10px;
+    }
+
+    #city::placeholder{
+        font-size: 12px;
+    }
+
+    .data .place-info {
+        font-size: 3.5rem;
+        margin-top: 0;
+    }
+
+    .data .temp {
+        font-size: 3.5rem;
+    }
+
+    .data .disc {
+        font-size: 3.5rem;
+    }
+
+    .view-more-box .svg {
+        width: 18px;
+    }
+
+    .info-card {
+        width: 410px;
+    }
+
+    .info-card .flex {
+        font-size: 0.5rem;
+    }
+
+    .flex {
+        width: 85%;
+    }
+
+    .date-time .time {
+        font-size: 1.5rem;
+    }
+    .date-time .date {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .search-box #city {
+        width: 250px;
+        font-size: 0.1rem;
+        padding-top: 10px;
+    }
+
+    .data .place-info {
+        font-size: 3rem;
+        margin-top: 0;
+    }
+
+    .data .temp {
+        font-size: 3rem;
+    }
+
+    .data .disc {
+        font-size: 3rem;
+    }
+
+    .info-card {
+        width: 400px;
+    }
+
+    .info-card .flex p {
+        font-size: 18px;
+    }
+
+    .date-time .time {
+        font-size: 1rem;
+    }
+    .date-time .date {
+        font-size: 1rem;
+    }
+
+    .info-card p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 820px) {
+    .info-card {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .flex{
+        width: 80%;
+        height: 30px;
+        margin-bottom: 7px;
+    }
+}
+
+@media (max-width: 674px) {
+    .view-more-box {
+        width: 80px;
+    }
+}
+
+@media (max-width: 445px) {
+    .info-card {
+        width: 280px;
+        margin-bottom: 30px;
+    }
+    .flex{
+        width: 80%;
+        height: 30px;
+    }
+    .info-card .flex {
+        font-size: 0.5rem;
+    }
 }
