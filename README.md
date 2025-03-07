@@ -1,15 +1,3 @@
-"COMPANY": CODTECH IT SOLUTIONS
-
-"NAME": YASH NARENDRA WAVHAL
-
-"Intern ID": CT08JYP
-
-"DOMAIN": FULL STACK DEVELOPMENT
-
-"DURATION": 4 WEEKS
-
-"MENTOR": NEELA SANTOSH
-
 # WEATHER APP API INTEGRATION
 
 This project is a **Responsive Weather Application** built using **JavaScript**, **EJS (Embedded JavaScript)**, **CSS**, and integrates a weather API to provide real-time weather data. The app is designed with a focus on responsiveness and user experience, making it suitable for both desktop and mobile platforms.
